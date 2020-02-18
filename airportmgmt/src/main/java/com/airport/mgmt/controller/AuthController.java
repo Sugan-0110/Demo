@@ -40,7 +40,7 @@ public class AuthController {
 		System.out.println("inside register");
 		return "register";
 	}
-	
+	//commit
 	@RequestMapping(value="/login/auth")
 	public String authentication(@ModelAttribute("userForm")User user)
 	{
